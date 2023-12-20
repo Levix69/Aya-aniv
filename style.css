@@ -1,0 +1,82 @@
+body {
+  background-image: url('ayano.png');
+  background-size: cover; /* Ajuste la taille de l'image pour couvrir tout l'arrière-plan */
+  background-position: center; /* Centre l'image à l'arrière-plan */
+  background-repeat: no-repeat; /* Évite la répétition de l'image */
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #3498db;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border 0.3s ease;
+}
+
+input:focus {
+  border: 1px solid #3498db;
+}
+
+.animated-button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.animated-button:hover {
+  background-color: #2980b9;
+}
+
+.message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #e74c3c;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.message.show {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
